@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <style>
+    .iWrap {
+      width: 100%;
+
+    }
+
+    .iWrap iframe {
+      height: 560px;
+    }
+
+    @media screen and (max-width:720px) {
+      .iWrap iframe {
+        height: 240px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="iWrap">
+      <iframe width="100%" src="https://www.youtube.com/embed/50_486Gun-o?autoplay=1&amp;loop=1" frameborder="0"
+        allowfullscreen class="iframe"> </iframe>
+
+    </div>
+
+
+  </div>
+  <div class="container">
+    <button class="btn btn-primary all">전체</button>
+    <button class="btn btn-primary sop">소프라노</button>
+    <button class="btn btn-primary alto">알토</button>
+    <button class="btn btn-primary ten">테너</button>
+    <button class="btn btn-primary bass">베이스</button>
+  </div>
+  <script>
+
+    const link = {
+      all: '50_486Gun-o',
+      sop: 'cvy63wOjUPw',
+      alt: 'apuH-f0fMI0',
+      ten: 'oJu8smRPue4',
+      bass: 'no9BP29CBXg'
+    }
+    $('.all').click(function () {
+      //  전체
+      $('.iframe').attr('src', `https://www.youtube.com/embed/${link.all}?autoplay=1&amp;loop=1`)
+    })
+    $('.sop').click(function () {
+      //소프라노
+      $('.iframe').attr('src', `https://www.youtube.com/embed/${link.sop}?autoplay=1&amp;loop=1`)
+    })
+    $('.alto').click(function () {
+      //알토
+      $('.iframe').attr('src', `https://www.youtube.com/embed/${link.alt}?autoplay=1&amp;loop=1`)
+    })
+    $('.ten').click(function () {
+      //테너
+      $('.iframe').attr('src', `https://www.youtube.com/embed/${link.ten}?autoplay=1&amp;loop=1`)
+    })
+    $('.bass').click(function () {
+      //베이스
+      $('.iframe').attr('src', `https://www.youtube.com/embed/${link.bass}?autoplay=1&amp;loop=1`)
+    })
+  </script>
+</body>
+
+</html>
