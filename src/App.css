@@ -1,23 +1,48 @@
 /* App.css */
-html, body, #root, .App {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* Prevent scrollbars */
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.fullcalendar-container {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* Increase font size for calendar elements */
+.fc .fc-daygrid-day-number {
+    font-size: 1.2em; /* Adjust the date number size */
   }
   
-  .App {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  .fc .fc-event-title {
+    font-size: 1.1em; /* Adjust the event title size */
   }
   
-  .fullcalendar-container {
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    max-height: 100%;
-    box-sizing: border-box;
-    padding: 10px;
+  .fc .fc-toolbar-title {
+    font-size: 1.5em; /* Adjust the toolbar title size */
+  }
+  
+  .fc .fc-button {
+    font-size: 1em; /* Adjust the button text size */
+  }
+
+
+  .fc .fc-day-sun {
+    background-color: rgb(255, 243, 245);
   }
