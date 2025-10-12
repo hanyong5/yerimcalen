@@ -11,14 +11,13 @@ function App() {
 
   useEffect(() => {
     axios
-      .get(
-        "https://notion-api.splitbee.io/v1/table/40ddd1dd95834d54b92a6d08ed27a277"
-      )
+      .get("https://hanyong5.github.io/yerimcal2/notion_data.json")
       .then((response) => {
         const data = response.data.map((item) => ({
           title: item.title,
-          start: item.start,
-          end: item.end || item.start, // Use start date if end date is not available
+          start: item.start.start,
+
+          end: item.end && (item.end.end || item.end.start), // Prioritize end.end, fallback to end.start, or undefined if both null
           url: item.url, // Assuming the API provides a URL field
         }));
         setEvents(data);
@@ -44,8 +43,9 @@ function App() {
           locale={koLocale}
           events={events}
           eventClick={handleEventClick}
-          dayCellContent={(arg) => arg.dayNumberText.replace('일', '')}
-          height="auto" />
+          dayCellContent={(arg) => arg.dayNumberText.replace("일", "")}
+          height="auto"
+        />
       </div>
     </div>
   );
