@@ -1,0 +1,162 @@
+[
+  {
+    "title": "신정",
+    "start": "2025-01-01",
+    "className": "holiday"
+  },
+  {
+    "title": "설날",
+    "start": "2025-01-28",
+    "className": "holiday"
+  },
+  {
+    "title": "설날",
+    "start": "2025-01-29",
+    "className": "holiday"
+  },
+  {
+    "title": "설날",
+    "start": "2025-01-30",
+    "className": "holiday"
+  },
+  {
+    "title": "삼일절",
+    "start": "2025-03-01",
+    "className": "holiday"
+  },
+  {
+    "title": "어린이날",
+    "start": "2025-05-05",
+    "className": "holiday"
+  },
+  {
+    "title": "부처님오신날",
+    "start": "2025-05-05",
+    "className": "holiday"
+  },
+  {
+    "title": "현충일",
+    "start": "2025-06-06",
+    "className": "holiday"
+  },
+  {
+    "title": "광복절",
+    "start": "2025-08-15",
+    "className": "holiday"
+  },
+  {
+    "title": "추석",
+    "start": "2025-10-05",
+    "className": "holiday"
+  },
+  {
+    "title": "추석",
+    "start": "2025-10-06",
+    "className": "holiday"
+  },
+  {
+    "title": "추석",
+    "start": "2025-10-07",
+    "className": "holiday"
+  },
+  {
+    "title": "개천절",
+    "start": "2025-10-03",
+    "className": "holiday"
+  },
+  {
+    "title": "한글날",
+    "start": "2025-10-09",
+    "className": "holiday"
+  },
+  {
+    "title": "크리스마스",
+    "start": "2025-12-25",
+    "className": "holiday"
+  },
+  {
+    "title": "신정",
+    "start": "2026-01-01",
+    "className": "holiday"
+  },
+  {
+    "title": "설날",
+    "start": "2026-02-16",
+    "className": "holiday"
+  },
+  {
+    "title": "설날",
+    "start": "2026-02-17",
+    "className": "holiday"
+  },
+  {
+    "title": "설날",
+    "start": "2026-02-18",
+    "className": "holiday"
+  },
+  {
+    "title": "삼일절",
+    "start": "2026-03-01",
+    "className": "holiday"
+  },
+  {
+    "title": "어린이날",
+    "start": "2026-05-05",
+    "className": "holiday"
+  },
+  {
+    "title": "부처님오신날",
+    "start": "2026-05-24",
+    "className": "holiday"
+  },
+  {
+    "title": "현충일",
+    "start": "2026-06-06",
+    "className": "holiday"
+  },
+  {
+    "title": "광복절",
+    "start": "2026-08-15",
+    "className": "holiday"
+  },
+  {
+    "title": "추석",
+    "start": "2026-09-24",
+    "className": "holiday"
+  },
+  {
+    "title": "추석",
+    "start": "2026-09-25",
+    "className": "holiday"
+  },
+  {
+    "title": "추석",
+    "start": "2026-09-26",
+    "className": "holiday"
+  },
+  {
+    "title": "개천절",
+    "start": "2026-10-03",
+    "className": "holiday"
+  },
+  {
+    "title": "한글날",
+    "start": "2026-10-09",
+    "className": "holiday"
+  },
+  {
+    "title": "크리스마스",
+    "start": "2026-12-25",
+    "className": "holiday"
+  },
+  {
+    "title": "부활절",
+    "start": "2026-03-15",
+    "className": "ch"
+  },
+  {
+    "title": "종료주일",
+    "start": "2026-03-08",
+    "className": "ch"
+  }
+]

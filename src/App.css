@@ -27,22 +27,44 @@ body,
 
 /* Increase font size for calendar elements */
 .fc .fc-daygrid-day-number {
-    font-size: 1.2em; /* Adjust the date number size */
-  }
-  
-  .fc .fc-event-title {
-    font-size: 1.1em; /* Adjust the event title size */
-  }
-  
-  .fc .fc-toolbar-title {
-    font-size: 1.5em; /* Adjust the toolbar title size */
-  }
-  
-  .fc .fc-button {
-    font-size: 1em; /* Adjust the button text size */
-  }
+  font-size: 1.2em; /* Adjust the date number size */
+}
 
+.fc .fc-event-title {
+  font-size: 1.1em; /* Adjust the event title size */
+}
 
-  .fc .fc-day-sun {
-    background-color: rgb(255, 243, 245);
-  }
+.fc .fc-toolbar-title {
+  font-size: 1.5em; /* Adjust the toolbar title size */
+}
+
+.fc .fc-button {
+  font-size: 1em; /* Adjust the button text size */
+}
+
+.fc .fc-day-sun {
+  background-color: rgb(255, 243, 245);
+}
+
+/* 휴일 스타일링 */
+.fc .fc-event.holiday {
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
+  color: white;
+  font-weight: bold;
+}
+.fc .fc-event.ch {
+  background-color: #fc31f2;
+  border-color: #fc31f2;
+  color: white;
+  font-weight: bold;
+}
+.fc .fc-event.holiday:hover {
+  background-color: #ff5252;
+  border-color: #ff5252;
+}
+
+/* 휴일이 있는 날짜 셀 배경색 (선택사항) */
+.fc .fc-daygrid-day.fc-day-holiday {
+  background-color: #fff5f5;
+}
